@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | My Website</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header {
+      background: #f2f2f2;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    header img { width: 50px; height: 50px; object-fit: contain; }
+    nav a { margin-right: 16px; }
+    main { padding: 24px; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/logo.png' | relative_url }}" alt="Logo">
+    </a>
+    <div>
+      <strong>My Website</strong>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about.html' | relative_url }}">About</a>
+        <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
