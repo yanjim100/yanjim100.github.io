@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Why deep neural network can learn
 ---
 
 A question which came up from time to time was why deep learning can learn.
