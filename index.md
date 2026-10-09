@@ -10,4 +10,4 @@ Articles
 
 [About](Readme.md)
 
-[Why deep neural network can learn](docs/guide.md)
+[Why deep neural network can learn](Why deep neural network can learn.md)
