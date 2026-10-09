@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 
 A question which came up from time to time was why deep learning can learn.
 
