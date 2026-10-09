@@ -16,4 +16,4 @@ Sometimes when I am learning, many questions and ideas come up. I felt the tempt
 
 [About](Readme.md)
 
-[Why deep neural network can learn](Why%20deep%20neural%20network%20can%20learn.md)
+[Why deep neural network can learn](https://github.com/yanjim100/yanjim100.github.io/blob/main/Why%20deep%20neural%20network%20can%20learn.md)
